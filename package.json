@@ -1,0 +1,16 @@
+{
+  "name": "playwright_lesson1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=Chrome"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.41.2",
+    "@types/node": "^20.9.0",
+    "json": "^11.0.0"
+  }
+}
